@@ -47,7 +47,7 @@
         "image": "shopify://shop_images/sunriseforever-discount-5839311_1920.jpg",
         "image_overlay_opacity": 30,
         "image_height": "small",
-        "image_behavior": "ambient",
+        "image_behavior": "fixed",
         "desktop_content_position": "middle-left",
         "desktop_content_alignment": "left",
         "show_text_box": false,
