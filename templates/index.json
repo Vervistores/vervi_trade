@@ -164,6 +164,12 @@
     "collection_list": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trending"
+          }
+        },
         "featured_collection1": {
           "type": "featured_collection",
           "settings": {
@@ -173,32 +179,26 @@
         "featured_collection2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "women"
           }
         },
         "featured_collection4": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "kids"
           }
         },
         "featured_collection5": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "homedecor"
           }
         }
       },
       "block_order": [
+        "featured_collection3",
         "featured_collection1",
         "featured_collection2",
-        "featured_collection3",
         "featured_collection4",
         "featured_collection5"
       ],
