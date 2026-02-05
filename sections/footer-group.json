@@ -14,6 +14,14 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "image_ApJdrg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Vervi_Store_Logo_purple.jpg",
+            "image_width": 330,
+            "alignment": ""
+          }
+        },
         "link_list": {
           "type": "link_list",
           "settings": {
@@ -30,6 +38,7 @@
         }
       },
       "block_order": [
+        "image_ApJdrg",
         "link_list",
         "link_list_B8TGy3"
       ],
