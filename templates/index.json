@@ -58,6 +58,82 @@
         "show_text_below": false
       }
     },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Outstanding service | Exclusive pricing | Industry expertise</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "collection_list": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "trending"
+          }
+        },
+        "featured_collection1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "men"
+          }
+        },
+        "featured_collection2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women"
+          }
+        },
+        "featured_collection4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kids"
+          }
+        },
+        "featured_collection5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "homedecor"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection3",
+        "featured_collection1",
+        "featured_collection2",
+        "featured_collection4",
+        "featured_collection5"
+      ],
+      "settings": {
+        "title": "Our Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-5",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 60
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -145,82 +221,6 @@
         "swipe_on_mobile": true,
         "padding_top": 12,
         "padding_bottom": 12
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Outstanding service | Exclusive pricing | Industry expertise</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
-      }
-    },
-    "collection_list": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "trending"
-          }
-        },
-        "featured_collection1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "men"
-          }
-        },
-        "featured_collection2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women"
-          }
-        },
-        "featured_collection4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kids"
-          }
-        },
-        "featured_collection5": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "homedecor"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection3",
-        "featured_collection1",
-        "featured_collection2",
-        "featured_collection4",
-        "featured_collection5"
-      ],
-      "settings": {
-        "title": "Our Collections",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "scheme-5",
-        "show_view_all": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 60
       }
     },
     "featured_collection2": {
@@ -411,9 +411,9 @@
   },
   "order": [
     "image_banner",
-    "multicolumn",
     "rich_text",
     "collection_list",
+    "multicolumn",
     "featured_collection2",
     "featured_collection1",
     "multicolumn1",
