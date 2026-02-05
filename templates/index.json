@@ -217,6 +217,7 @@
     },
     "featured_collection1": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "",
         "products_to_show": 10,
@@ -308,6 +309,7 @@
     },
     "featured_collection2": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "collection": "",
         "products_to_show": 6,
@@ -380,6 +382,7 @@
         "column13",
         "column14"
       ],
+      "disabled": true,
       "settings": {
         "title": "You're set up for success",
         "heading_size": "h2",
