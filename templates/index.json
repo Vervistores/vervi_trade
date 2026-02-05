@@ -14,6 +14,7 @@
       "blocks": {
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Welcome industry insiders",
             "text_style": "caption-with-letter-spacing"
@@ -22,8 +23,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Grow your business with us",
-            "heading_size": "h1"
+            "heading": "Explore our products",
+            "heading_size": "h2"
           }
         },
         "button": {
