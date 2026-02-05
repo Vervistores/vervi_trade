@@ -25,7 +25,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Customer Service",
-            "menu": "footer"
+            "menu": "footer-menu-customer-service"
           }
         }
       },
