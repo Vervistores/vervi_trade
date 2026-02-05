@@ -326,6 +326,7 @@
         "column9",
         "column10"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
