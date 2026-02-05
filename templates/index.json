@@ -64,7 +64,7 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/108.jpg",
+            "image": "shopify://shop_images/discount-stamp-2.png",
             "title": "<strong>10% Discount - Code: VVFIRST</strong>",
             "text": "<p>Flat 10% Discount on your 1st Order!</p>",
             "link_label": "",
