@@ -64,17 +64,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Insert partner logo",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Insert partner logo",
-            "text": "",
+            "image": "shopify://shop_images/108.jpg",
+            "title": "<strong>10% Discount - Code: VVFIRST</strong>",
+            "text": "<p>Flat 10% Discount on your 1st Order!</p>",
             "link_label": "",
             "link": ""
           }
@@ -82,14 +74,26 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Insert partner logo",
-            "text": "",
+            "image": "shopify://shop_images/payment.png",
+            "title": "<strong>Secure Payments</strong>",
+            "text": "<p>Your Payments Are completely Safe!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/return.png",
+            "title": "<strong>Easy Exchange</strong>",
+            "text": "<p>Issue? No Worries! Easy Exchange</p>",
             "link_label": "",
             "link": ""
           }
         },
         "column4": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Insert partner logo",
             "text": "",
@@ -99,6 +103,7 @@
         },
         "column5": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Insert partner logo",
             "text": "",
@@ -108,6 +113,7 @@
         },
         "column6": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Insert partner logo",
             "text": "",
@@ -118,20 +124,20 @@
       },
       "block_order": [
         "column1",
-        "column2",
         "column3",
+        "column2",
         "column4",
         "column5",
         "column6"
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "circle",
         "button_label": "",
         "button_link": "",
-        "columns_desktop": 6,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "color_scheme": "scheme-2",
