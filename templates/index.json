@@ -134,7 +134,7 @@
         "title": "",
         "heading_size": "h2",
         "image_width": "half",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
