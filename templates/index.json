@@ -45,7 +45,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner.jpg",
+        "image": "shopify://shop_images/Women_banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "image_behavior": "zoom-in",
