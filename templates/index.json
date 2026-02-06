@@ -122,6 +122,9 @@
         "slide_qKYN9e",
         "slide_YE3FzD"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 750px) {slideshow-component {display: none; }}"
+      ],
       "name": "Slideshow Desktop",
       "settings": {
         "layout": "full_bleed",
