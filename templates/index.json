@@ -122,7 +122,7 @@
         "slide_qKYN9e",
         "slide_YE3FzD"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "Slideshow Desktop",
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -196,7 +196,7 @@
         "slide_cLbp8a",
         "slide_93PbiB"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "Slideshow Mobile",
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
