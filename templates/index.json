@@ -110,6 +110,7 @@
         "slide_QtGpLf",
         "slide_cLbp8a"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Slideshow Mobile",
       "settings": {
@@ -186,6 +187,7 @@
         "featured_collection4",
         "featured_collection5"
       ],
+      "custom_css": [],
       "settings": {
         "title": "Our Collections",
         "heading_size": "h2",
