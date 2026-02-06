@@ -199,6 +199,9 @@
         "slide_cLbp8a",
         "slide_93PbiB"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 750px) {slideshow-component {display: none; }}"
+      ],
       "name": "Slideshow Mobile",
       "settings": {
         "layout": "full_bleed",
