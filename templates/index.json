@@ -45,9 +45,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/banner-desktop_first.jpg",
+        "image": "shopify://shop_images/banner-desktop_first_1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "image_behavior": "zoom-in",
         "desktop_content_position": "bottom-left",
         "desktop_content_alignment": "left",
