@@ -48,7 +48,7 @@
         "image": "shopify://shop_images/banner-desktop_first_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "image_behavior": "zoom-in",
+        "image_behavior": "ambient",
         "desktop_content_position": "bottom-left",
         "desktop_content_alignment": "left",
         "show_text_box": false,
