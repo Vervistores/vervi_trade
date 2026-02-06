@@ -44,7 +44,6 @@
         "heading",
         "button"
       ],
-      "disabled": true,
       "name": "Main banner Desktop",
       "settings": {
         "image": "shopify://shop_images/banner-desktop_first_1.jpg",
