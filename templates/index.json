@@ -98,32 +98,12 @@
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-1"
           }
-        },
-        "slide_YE3FzD": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
         }
       },
       "block_order": [
         "slide_XadiPX",
-        "slide_qKYN9e",
-        "slide_YE3FzD"
+        "slide_qKYN9e"
       ],
-      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 750px) {slideshow-component {display: none; }}"
       ],
@@ -177,32 +157,12 @@
             "text_alignment_mobile": "center",
             "color_scheme": "scheme-1"
           }
-        },
-        "slide_93PbiB": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "show_text_box": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "text_alignment_mobile": "center",
-            "color_scheme": ""
-          }
         }
       },
       "block_order": [
         "slide_QtGpLf",
-        "slide_cLbp8a",
-        "slide_93PbiB"
+        "slide_cLbp8a"
       ],
-      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {.image_banner, slideshow-component {display: none; }}"
       ],
