@@ -9,57 +9,6 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "text": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Welcome industry insiders",
-            "text_style": "caption-with-letter-spacing"
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Explore our products",
-            "heading_size": "h2"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "text",
-        "heading",
-        "button"
-      ],
-      "disabled": true,
-      "name": "Main banner Desktop",
-      "settings": {
-        "image": "shopify://shop_images/banner-desktop_first_1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "image_behavior": "ambient",
-        "desktop_content_position": "bottom-left",
-        "desktop_content_alignment": "left",
-        "show_text_box": false,
-        "color_scheme": "scheme-5",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "left",
-        "show_text_below": false
-      }
-    },
     "slideshow_cEW3VB": {
       "type": "slideshow",
       "blocks": {
@@ -164,7 +113,7 @@
         "slide_cLbp8a"
       ],
       "custom_css": [
-        "@media screen and (min-width: 750px) {.image_banner, slideshow-component {display: none; }}"
+        "@media screen and (min-width: 750px) {slideshow-component {display: none; }}"
       ],
       "name": "Slideshow Mobile",
       "settings": {
@@ -530,7 +479,6 @@
     }
   },
   "order": [
-    "image_banner",
     "slideshow_cEW3VB",
     "slideshow_KJjn4z",
     "rich_text",
