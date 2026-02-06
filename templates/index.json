@@ -53,9 +53,7 @@
         "slide_XadiPX",
         "slide_qKYN9e"
       ],
-      "custom_css": [
-        "@media screen and (max-width: 750px) {slideshow-component {display: none; }}"
-      ],
+      "custom_css": [],
       "name": "Slideshow Desktop",
       "settings": {
         "layout": "full_bleed",
@@ -112,9 +110,7 @@
         "slide_QtGpLf",
         "slide_cLbp8a"
       ],
-      "custom_css": [
-        "@media screen and (min-width: 750px) {slideshow-component {display: none; }}"
-      ],
+      "custom_css": [],
       "name": "Slideshow Mobile",
       "settings": {
         "layout": "full_bleed",
