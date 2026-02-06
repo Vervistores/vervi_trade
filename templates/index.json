@@ -85,7 +85,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Men_banner.jpg",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 10,
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
