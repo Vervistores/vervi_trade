@@ -124,7 +124,7 @@
         "slide_YE3FzD"
       ],
       "custom_css": [
-        "@media screen and (max-width: 750px) {.banner_media, slideshow-component {display: none; }}"
+        "@media screen and (max-width: 750px) {.banner, slideshow-component {display: none; }}"
       ],
       "name": "Slideshow Desktop",
       "settings": {
@@ -213,7 +213,7 @@
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": ""
       }
     },
     "rich_text": {
