@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to Vervi store",
+            "text": "10% Flat Discount on 1st Purchase - Use Code: VVFIRST10",
             "link": ""
           }
         }
@@ -44,7 +44,7 @@
         "menu_type_desktop": "mega",
         "sticky_header_type": "reduce-logo-size",
         "show_line_separator": true,
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-2",
         "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
