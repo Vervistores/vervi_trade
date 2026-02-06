@@ -123,6 +123,7 @@
         "slide_qKYN9e",
         "slide_YE3FzD"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 750px) {.banner, slideshow-component {display: none; }}"
       ],
