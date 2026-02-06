@@ -212,7 +212,7 @@
         "settings": {
           "background": "#ffd6d6",
           "background_gradient": "",
-          "text": "#1c2228",
+          "text": "#000000",
           "button": "#b7aca2",
           "button_label": "#262626",
           "secondary_button_label": "#001128",
