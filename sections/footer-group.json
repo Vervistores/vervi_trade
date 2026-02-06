@@ -17,9 +17,9 @@
         "image_ApJdrg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Vervi_Store_Logo_purple.jpg",
+            "image": "shopify://shop_images/Vervi-Store-Logo-pink-transparent.png",
             "image_width": 330,
-            "alignment": ""
+            "alignment": "center"
           }
         },
         "link_list": {
