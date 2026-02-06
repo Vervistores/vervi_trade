@@ -44,6 +44,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "name": "Main banner Desktop",
       "settings": {
         "image": "shopify://shop_images/banner-desktop_first_1.jpg",
@@ -122,6 +123,7 @@
         "slide_qKYN9e",
         "slide_YE3FzD"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 750px) {slideshow-component {display: none; }}"
       ],
@@ -200,6 +202,7 @@
         "slide_cLbp8a",
         "slide_93PbiB"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 750px) {.image_banner, slideshow-component {display: none; }}"
       ],
