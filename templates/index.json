@@ -112,7 +112,9 @@
         "slide_QtGpLf",
         "slide_cLbp8a"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (min-width: 768px) {slideshow-component {display: none !important; }}"
+      ],
       "name": "Slideshow Mobile",
       "settings": {
         "layout": "full_bleed",
