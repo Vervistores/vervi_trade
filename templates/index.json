@@ -53,7 +53,9 @@
         "slide_XadiPX",
         "slide_qKYN9e"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {slideshow-component {display: none !important; }}"
+      ],
       "name": "Slideshow Desktop",
       "settings": {
         "layout": "full_bleed",
