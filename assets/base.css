@@ -3648,3 +3648,11 @@ details-disclosure > details {
         padding: 25px 18px !important;
     }
 }
+
+.template-page .page-width {
+    max-width: 1400px !important;
+}
+
+#MainContent {
+    padding-top: 20px !important;
+}
