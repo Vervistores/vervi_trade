@@ -109,7 +109,7 @@
         "enable_sticky_info": true,
         "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
         "media_size": "small",
-        "constrain_to_viewport": true,
+        "constrain_to_viewport": false,
         "media_fit": "cover",
         "gallery_layout": "thumbnail_slider",
         "mobile_thumbnails": "show",
