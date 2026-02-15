@@ -3694,4 +3694,9 @@ details-disclosure > details {
 
 }
 
+.product__media-list + .slider-buttons{
+  display:none !important;
+}
+
+
 
