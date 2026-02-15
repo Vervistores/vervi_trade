@@ -3649,3 +3649,49 @@ details-disclosure > details {
     }
 }
 
+/* ===== Vertical thumbnails product gallery ===== */
+
+@media screen and (min-width: 990px){
+
+  .product__media-wrapper{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+  }
+
+  /* thumbnails container */
+  .slider.slider--mobile{
+    width:90px;
+    order:1;
+    margin-right:18px;
+  }
+
+  /* make thumbnails vertical */
+  .thumbnail-list{
+    display:flex !important;
+    flex-direction:column !important;
+    gap:12px;
+  }
+
+  /* thumbnail size */
+  .thumbnail{
+    width:80px !important;
+    height:80px !important;
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid #eee;
+  }
+
+  .thumbnail img{
+    object-fit:cover;
+  }
+
+  /* main image area */
+  .product__media-list{
+    order:2;
+    width:100%;
+  }
+
+}
+
+
