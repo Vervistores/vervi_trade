@@ -1,0 +1,49 @@
+{% if product.description != blank %}
+<div class="product-desc-wrapper">
+  <div class="product-desc-container">
+
+    <h2 class="product-desc-title">Product Description</h2>
+
+    <div class="product-desc-content rte">
+      {{ product.description }}
+    </div>
+
+  </div>
+</div>
+{% endif %}
+
+<style>
+.product-desc-wrapper{
+  width:100%;
+  background:#ffffff;
+  margin-top:0px;
+}
+
+.product-desc-container{
+  max-width:1150px;
+  margin:0 auto;
+  padding:40px 30px;
+}
+
+.product-desc-title{
+  text-align:center;
+  color:#861388;
+  font-family:'Inter',sans-serif;
+  font-size:30px;
+  font-weight:600;
+  margin-bottom:25px;
+}
+
+.product-desc-content{
+  color:#EB7474;
+  font-family:'Inter',sans-serif;
+  line-height:1.85;
+  font-size:16px;
+}
+
+.product-desc-content h2,
+.product-desc-content h3{
+  color:#861388;
+  margin-top:25px;
+}
+</style>
