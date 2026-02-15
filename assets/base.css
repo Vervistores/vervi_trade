@@ -3679,6 +3679,169 @@ details-disclosure > details {
   }
 }
 
+/* =============================== */
+/* VERVI STORE BUTTON DESIGN       */
+/* =============================== */
+
+/* Add to Cart button */
+.product-form__submit,
+button[name="add"],
+.shopify-payment-button__button,
+.shopify-payment-button__button--unbranded {
+
+    background: #861388 !important;
+    color: #ffffff !important;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 14px !important;
+    padding: 16px 22px !important;
+    letter-spacing: 0.5px;
+    border: none !important;
+    transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.product-form__submit:hover,
+button[name="add"]:hover,
+.shopify-payment-button__button:hover,
+.shopify-payment-button__button--unbranded:hover {
+
+    background: #EB7474 !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(134,19,136,0.25);
+}
+
+/* Buy Now (dynamic checkout) bigger */
+.shopify-payment-button__button--unbranded {
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+/* Disabled / Sold out */
+.product-form__submit[disabled],
+.shopify-payment-button__button[disabled] {
+    background: #cccccc !important;
+    color: #666666 !important;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+/* Remove Shopify button focus border offset */
+.product-form__submit:focus,
+.product-form__submit:focus-visible,
+.shopify-payment-button__button:focus,
+.shopify-payment-button__button:focus-visible,
+.quick-add__submit:focus,
+.quick-add__submit:focus-visible,
+button:focus,
+button:focus-visible {
+
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Remove the ugly internal pseudo border Shopify adds */
+.product-form__submit::after,
+.shopify-payment-button__button::after {
+    display: none !important;
+}
+
+/* ===================================================== */
+/* FIX CHOOSE OPTIONS BUTTON WHITE OFFSET (TRADE/Dawn)   */
+/* ===================================================== */
+
+/* remove Shopify fake border layer */
+.quick-add__submit::after,
+.button--secondary::after,
+.card .button::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* remove focus outline only for product grid buttons */
+.quick-add__submit:focus,
+.quick-add__submit:focus-visible,
+.button--secondary:focus,
+.button--secondary:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* SOLD OUT button */
+.quick-add__submit[disabled],
+.button[disabled] {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.quick-add__submit[disabled]::after,
+.button[disabled]::after {
+    display: none !important;
+}
+
+/* ===================================================== */
+/* VERVI STORE — CART CHECKOUT BUTTON                    */
+/* ===================================================== */
+
+.cart__checkout-button,
+.cart__ctas .button,
+#checkout,
+[name="checkout"] {
+
+    background: #861388 !important;
+    color: #ffffff !important;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 14px !important;
+    padding: 18px 26px !important;
+    letter-spacing: 0.5px;
+    border: none !important;
+    width: 100%;
+    transition: all 0.25s ease;
+}
+
+/* Hover */
+.cart__checkout-button:hover,
+.cart__ctas .button:hover,
+#checkout:hover,
+[name="checkout"]:hover {
+
+    background: #EB7474 !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(134,19,136,0.25);
+}
+
+/* Remove Shopify fake border layer */
+.cart__checkout-button::after,
+.cart__ctas .button::after,
+#checkout::after,
+[name="checkout"]::after {
+    display: none !important;
+}
+
+/* Focus offset removal */
+.cart__checkout-button:focus,
+.cart__checkout-button:focus-visible,
+.cart__ctas .button:focus,
+.cart__ctas .button:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Disabled state */
+.cart__checkout-button[disabled],
+.cart__ctas .button[disabled] {
+    background: #cccccc !important;
+    color: #666666 !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
 
 
 
