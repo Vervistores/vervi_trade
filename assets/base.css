@@ -3735,7 +3735,9 @@ button[name="add"]:hover,
 .shopify-payment-button__button:focus,
 .shopify-payment-button__button:focus-visible,
 button:focus,
-button:focus-visible {
+button:focus-visible,
+.card__information .button,
+.card__content .quick-add__submit {
 
     outline: none !important;
     box-shadow: none !important;
