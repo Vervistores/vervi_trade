@@ -32,37 +32,8 @@
         "show_text_below": true
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "Questions or comments? Get in touch and we'll be happy to help.",
-        "heading_size": "h2",
-        "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_EFYgbB": {
       "type": "rich-text",
-      "blocks": {
-        "heading_73KnkD": {
-          "type": "heading",
-          "settings": {
-            "heading": "Contact Information",
-            "heading_size": "h2"
-          }
-        },
-        "text_JX9aCQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Trade name: Vervi Store</p><p>Phone number: 9566246066</p><p>Email: vervistore@gmail.com</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_73KnkD",
-        "text_JX9aCQ"
-      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -77,7 +48,6 @@
   "order": [
     "main",
     "image_banner",
-    "form",
     "rich_text_EFYgbB"
   ]
 }
