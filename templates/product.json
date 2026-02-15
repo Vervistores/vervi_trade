@@ -16,6 +16,36 @@
           "type": "title",
           "settings": {}
         },
+        "rating_br8mCR": {
+          "type": "rating",
+          "settings": {}
+        },
+        "variant_picker_k4e8pA": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "inventory_GNy9GP": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
+        "quantity_selector_nkeHPx": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_DteNn6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -60,6 +90,11 @@
       },
       "block_order": [
         "title",
+        "rating_br8mCR",
+        "variant_picker_k4e8pA",
+        "inventory_GNy9GP",
+        "quantity_selector_nkeHPx",
+        "buy_buttons_DteNn6",
         "price",
         "description",
         "collapsible-row-1",
