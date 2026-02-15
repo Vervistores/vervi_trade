@@ -1,0 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 20,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-left",
+        "desktop_content_alignment": "left",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Questions or comments? Get in touch and we'll be happy to help.",
+        "heading_size": "h2",
+        "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_EFYgbB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_73KnkD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Information",
+            "heading_size": "h2"
+          }
+        },
+        "text_JX9aCQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Trade name: Vervi Store</p><p>Phone number: 9566246066</p><p>Email: vervistore@gmail.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_73KnkD",
+        "text_JX9aCQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner",
+    "form",
+    "rich_text_EFYgbB"
+  ]
+}
