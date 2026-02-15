@@ -258,6 +258,23 @@ a.product__text {
   display: none;
 }
 
+/* Product title sizing */
+.product__title h1{
+  font-family:'Inter',sans-serif !important;
+  color:#861388 !important;
+  font-size:26px !important;
+  font-weight:600 !important;
+  line-height:1.35;
+}
+
+/* Mobile size */
+@media screen and (max-width:750px){
+  .product__title h1{
+    font-size:20px !important;
+  }
+}
+
+
 .product__title + .product__text.caption-with-letter-spacing {
   margin-top: -1.5rem;
 }
