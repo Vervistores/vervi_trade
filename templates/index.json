@@ -464,8 +464,8 @@
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "image_width": "half",
-        "image_ratio": "adapt",
+        "image_width": "third",
+        "image_ratio": "square",
         "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
