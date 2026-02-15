@@ -3680,19 +3680,14 @@ details-disclosure > details {
 }
 
 /* =============================== */
-/* VERVI STORE UNIVERSAL BUTTONS   */
+/* VERVI STORE BUTTON DESIGN       */
 /* =============================== */
 
-/* All Shopify buttons */
-button,
-.button,
-.btn,
+/* Add to Cart button */
 .product-form__submit,
-.quick-add__submit,
+button[name="add"],
 .shopify-payment-button__button,
-.shopify-payment-button__button--unbranded,
-.cart__checkout-button,
-.cart__dynamic-checkout-buttons button {
+.shopify-payment-button__button--unbranded {
 
     background: #861388 !important;
     color: #ffffff !important;
@@ -3703,16 +3698,12 @@ button,
     padding: 16px 22px !important;
     letter-spacing: 0.5px;
     border: none !important;
-    transition: all 0.25s ease !important;
+    transition: all 0.25s ease;
 }
 
-
-/* Hover */
-button:hover,
-.button:hover,
-.btn:hover,
+/* Hover effect */
 .product-form__submit:hover,
-.quick-add__submit:hover,
+button[name="add"]:hover,
 .shopify-payment-button__button:hover,
 .shopify-payment-button__button--unbranded:hover {
 
@@ -3722,51 +3713,39 @@ button:hover,
     box-shadow: 0 8px 18px rgba(134,19,136,0.25);
 }
 
-
-/* Buy Now extra spacing */
+/* Buy Now (dynamic checkout) bigger */
 .shopify-payment-button__button--unbranded {
     margin-top: 12px;
     font-weight: 700;
 }
 
-
-/* SOLD OUT / DISABLED */
-button[disabled],
-.button[disabled],
+/* Disabled / Sold out */
 .product-form__submit[disabled],
-.quick-add__submit[disabled],
 .shopify-payment-button__button[disabled] {
-
     background: #cccccc !important;
     color: #666666 !important;
-    cursor: not-allowed !important;
-    box-shadow: none !important;
-    transform: none !important;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
 }
 
-
-/* REMOVE SHOPIFY BORDER OFFSET */
-button:focus,
-button:focus-visible,
-.button:focus,
-.button:focus-visible,
+/* Remove Shopify button focus border offset */
 .product-form__submit:focus,
 .product-form__submit:focus-visible,
-.quick-add__submit:focus,
-.quick-add__submit:focus-visible,
 .shopify-payment-button__button:focus,
-.shopify-payment-button__button:focus-visible {
+.shopify-payment-button__button:focus-visible,
+button:focus,
+button:focus-visible {
 
     outline: none !important;
     box-shadow: none !important;
 }
 
-
-/* REMOVE INTERNAL SHOPIFY OUTLINE LAYER */
-button::after,
-.button::after,
+/* Remove the ugly internal pseudo border Shopify adds */
 .product-form__submit::after,
-.quick-add__submit::after,
 .shopify-payment-button__button::after {
     display: none !important;
 }
+
+
+
