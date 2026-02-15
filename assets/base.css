@@ -3698,5 +3698,10 @@ details-disclosure > details {
   display:none !important;
 }
 
+.product .page-width{
+    max-width: 100% !important;
+    padding: 0 60px !important;
+}
+
 
 
