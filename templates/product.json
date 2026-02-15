@@ -58,6 +58,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
         "collapsible-row-1": {
@@ -123,6 +124,7 @@
     },
     "quick-order-list": {
       "type": "quick-order-list",
+      "disabled": true,
       "settings": {
         "variants_per_page": 50,
         "show_image": true,
@@ -135,7 +137,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "heading": "Other industry favorites",
+        "heading": "You might like",
         "heading_size": "h2",
         "products_to_show": 5,
         "columns_desktop": 5,
