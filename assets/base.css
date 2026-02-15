@@ -3654,42 +3654,57 @@ details-disclosure > details {
     padding: 0 60px !important;
 }
 
-/* ===== SAFE Vertical thumbnails (Trade theme compatible) ===== */
+/* ===============================
+   Vertical thumbnails (Trade/Dawn safe)
+   =============================== */
 
 @media screen and (min-width: 990px){
 
-  /* keep Shopify layout intact */
+  /* Reserve space for thumbnails */
   .product--thumbnail_slider .product__media-wrapper{
-      position: relative;
-      padding-left: 110px;
+      padding-left: 120px;
   }
 
-  /* move thumbnails to left */
+  /* Move thumbnails to left side */
   .product--thumbnail_slider .thumbnail-slider{
       position: absolute;
       left: 0;
       top: 0;
-      width: 95px;
-      max-height: 520px;
-      overflow-y: auto;
+      width: 100px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
   }
 
-  /* vertical thumbnails */
+  /* Vertical list */
   .product--thumbnail_slider .thumbnail-list{
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 14px;
+      align-items: center;
+      overflow-y: auto;
+      max-height: 520px;
+      padding-top: 10px;
   }
 
+  /* Individual thumbnail */
   .product--thumbnail_slider .thumbnail{
-      width: 80px;
-      height: 80px;
+      width: 85px;
+      height: 85px;
+      border-radius: 8px;
+      overflow: hidden;
   }
 
-  /* keep main image normal */
-  .product--thumbnail_slider .product__media-list{
-      margin-left: 0;
+  /* Prevent overlap with main image */
+  .product--thumbnail_slider .product__media{
+      margin-left: 0 !important;
+  }
+
+  /* make sure gallery container allows absolute elements */
+  .product__media-wrapper{
+      position: relative;
   }
 }
+
 
 
