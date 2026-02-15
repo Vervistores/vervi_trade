@@ -3679,6 +3679,55 @@ details-disclosure > details {
   }
 }
 
+/* =============================== */
+/* VERVI STORE BUTTON DESIGN       */
+/* =============================== */
+
+/* Add to Cart button */
+.product-form__submit,
+button[name="add"],
+.shopify-payment-button__button,
+.shopify-payment-button__button--unbranded {
+
+    background: #861388 !important;
+    color: #ffffff !important;
+    font-family: "Inter", sans-serif !important;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 14px !important;
+    padding: 16px 22px !important;
+    letter-spacing: 0.5px;
+    border: none !important;
+    transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.product-form__submit:hover,
+button[name="add"]:hover,
+.shopify-payment-button__button:hover,
+.shopify-payment-button__button--unbranded:hover {
+
+    background: #EB7474 !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(134,19,136,0.25);
+}
+
+/* Buy Now (dynamic checkout) bigger */
+.shopify-payment-button__button--unbranded {
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+/* Disabled / Sold out */
+.product-form__submit[disabled],
+.shopify-payment-button__button[disabled] {
+    background: #cccccc !important;
+    color: #666666 !important;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
 
 
 
