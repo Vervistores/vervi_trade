@@ -3729,5 +3729,23 @@ button[name="add"]:hover,
     transform: none;
 }
 
+/* Remove Shopify button focus border offset */
+.product-form__submit:focus,
+.product-form__submit:focus-visible,
+.shopify-payment-button__button:focus,
+.shopify-payment-button__button:focus-visible,
+button:focus,
+button:focus-visible {
+
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Remove the ugly internal pseudo border Shopify adds */
+.product-form__submit::after,
+.shopify-payment-button__button::after {
+    display: none !important;
+}
+
 
 
