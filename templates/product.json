@@ -122,6 +122,10 @@
         "padding_bottom": 36
       }
     },
+    "product_description": {
+      "type": "product-description",
+      "settings": {}
+    },
     "quick-order-list": {
       "type": "quick-order-list",
       "disabled": true,
@@ -155,6 +159,7 @@
   },
   "order": [
     "main",
+    "product_description",
     "quick-order-list",
     "related-products"
   ]
