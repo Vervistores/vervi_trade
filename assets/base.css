@@ -3679,6 +3679,62 @@ details-disclosure > details {
   }
 }
 
+/* ============================= */
+/* FORCE FIXED PRODUCT IMAGE BOX */
+/* Trade / Dawn compatible       */
+/* ============================= */
+
+.product__media-wrapper,
+.product-media-container,
+.media-gallery,
+.slider__slide,
+.product__media {
+    position: relative;
+}
+
+/* Fixed square product container */
+.product__media-wrapper {
+    aspect-ratio: 1 / 1 !important;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+/* Main media element */
+.product__media-wrapper img,
+.product__media-wrapper video,
+.product__media-wrapper iframe,
+.product__media-wrapper model-viewer {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+}
+
+/* Remove Shopify dynamic height */
+.media,
+.global-media-settings,
+.media-gallery__viewer,
+.product-media-container .media {
+    height: 100% !important;
+    max-height: none !important;
+}
+
+/* Slider fix */
+.slider__slide {
+    height: 100% !important;
+}
+
+/* THUMBNAILS */
+.thumbnail-slider,
+.thumbnail-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.thumbnail img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
 
 
 
