@@ -9,14 +9,6 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "settings": {
@@ -32,22 +24,16 @@
         "show_text_below": true
       }
     },
-    "rich_text_EFYgbB": {
-      "type": "rich-text",
-      "name": "t:sections.rich-text.presets.name",
+    "main": {
+      "type": "main-page",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main",
     "image_banner",
-    "rich_text_EFYgbB"
+    "main"
   ]
 }
