@@ -267,6 +267,11 @@ a.product__text {
   line-height:1.35;
 }
 
+.product__title{
+  max-width:600px;
+}
+
+
 /* Mobile size */
 @media screen and (max-width:750px){
   .product__title h1{
