@@ -3654,5 +3654,42 @@ details-disclosure > details {
     padding: 0 60px !important;
 }
 
+/* ===== SAFE Vertical thumbnails (Trade theme compatible) ===== */
+
+@media screen and (min-width: 990px){
+
+  /* keep Shopify layout intact */
+  .product--thumbnail_slider .product__media-wrapper{
+      position: relative;
+      padding-left: 110px;
+  }
+
+  /* move thumbnails to left */
+  .product--thumbnail_slider .thumbnail-slider{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 95px;
+      max-height: 520px;
+      overflow-y: auto;
+  }
+
+  /* vertical thumbnails */
+  .product--thumbnail_slider .thumbnail-list{
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+  }
+
+  .product--thumbnail_slider .thumbnail{
+      width: 80px;
+      height: 80px;
+  }
+
+  /* keep main image normal */
+  .product--thumbnail_slider .product__media-list{
+      margin-left: 0;
+  }
+}
 
 
