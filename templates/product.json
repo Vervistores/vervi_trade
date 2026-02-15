@@ -20,6 +20,10 @@
           "type": "rating",
           "settings": {}
         },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
         "variant_picker_k4e8pA": {
           "type": "variant_picker",
           "settings": {
@@ -46,9 +50,11 @@
             "show_gift_card_recipient": true
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {}
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         },
         "description": {
           "type": "description",
@@ -56,6 +62,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Product features",
             "icon": "star",
@@ -65,6 +72,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials and care",
             "icon": "leaf",
@@ -74,33 +82,28 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Merchandising tips",
             "icon": "check_mark",
             "content": "",
             "page": "merchandising-tips"
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
         "title",
         "rating_br8mCR",
+        "price",
         "variant_picker_k4e8pA",
         "inventory_GNy9GP",
         "quantity_selector_nkeHPx",
         "buy_buttons_DteNn6",
-        "price",
+        "share",
         "description",
         "collapsible-row-1",
         "collapsible-row-0",
-        "collapsible-row-2",
-        "share"
+        "collapsible-row-2"
       ],
       "settings": {
         "enable_sticky_info": true,
