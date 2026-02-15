@@ -3749,5 +3749,39 @@ button:focus-visible {
     display: none !important;
 }
 
+/* ===================================================== */
+/* FIX CHOOSE OPTIONS BUTTON WHITE OFFSET (TRADE/Dawn)   */
+/* ===================================================== */
+
+/* remove Shopify fake border layer */
+.quick-add__submit::after,
+.button--secondary::after,
+.card .button::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* remove focus outline only for product grid buttons */
+.quick-add__submit:focus,
+.quick-add__submit:focus-visible,
+.button--secondary:focus,
+.button--secondary:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* SOLD OUT button */
+.quick-add__submit[disabled],
+.button[disabled] {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.quick-add__submit[disabled]::after,
+.button[disabled]::after {
+    display: none !important;
+}
+
+
 
 
