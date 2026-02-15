@@ -3694,9 +3694,6 @@ details-disclosure > details {
 
 }
 
-.product__media-list + .slider-buttons{
-  display:none !important;
-}
 
 .product .page-width{
     max-width: 100% !important;
