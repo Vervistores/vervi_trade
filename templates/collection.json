@@ -12,19 +12,68 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
-        "color_scheme": "scheme-1"
+        "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3"
+      }
+    },
+    "collection_list_pePjFw": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Kcxdre": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earings"
+          }
+        },
+        "featured_collection_Wyp6tn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chains"
+          }
+        },
+        "featured_collection_iMMmgz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        },
+        "featured_collection_EXgk4a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Kcxdre",
+        "featured_collection_Wyp6tn",
+        "featured_collection_iMMmgz",
+        "featured_collection_EXgk4a"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 5,
         "columns_mobile": "2",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
+        "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
+        "image_ratio": "portrait",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -33,13 +82,14 @@
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     }
   },
   "order": [
     "banner",
+    "collection_list_pePjFw",
     "product-grid"
   ]
 }
