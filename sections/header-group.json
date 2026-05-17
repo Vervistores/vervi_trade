@@ -14,10 +14,17 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_azhRWq": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
         "announcement_6qNbNa": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store | 🚚 Free shipping on orders above ₹500 | Flat 10% Discount on your 1st Order! Use Code VVFIRST",
+            "text": "🚚 Free shipping on orders above ₹500",
             "link": ""
           }
         },
@@ -30,14 +37,15 @@
         }
       },
       "block_order": [
+        "announcement_azhRWq",
         "announcement_6qNbNa",
         "announcement-bar-0"
       ],
       "settings": {
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "color_scheme": "scheme-daf39232-35be-4f37-a57f-0cb7aaa4082a",
-        "show_line_separator": false,
+        "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
         "enable_language_selector": false
