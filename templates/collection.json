@@ -17,8 +17,57 @@
         "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3"
       }
     },
+    "collection_list_pePjFw": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dqJj3B": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earings"
+          }
+        },
+        "featured_collection_Wyp6tn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chains"
+          }
+        },
+        "featured_collection_iMMmgz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        },
+        "featured_collection_EXgk4a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dqJj3B",
+        "featured_collection_Wyp6tn",
+        "featured_collection_iMMmgz",
+        "featured_collection_EXgk4a"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_ratio": "portrait",
+        "columns_desktop": 5,
+        "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 5,
@@ -40,6 +89,7 @@
   },
   "order": [
     "banner",
+    "collection_list_pePjFw",
     "product-grid"
   ]
 }
