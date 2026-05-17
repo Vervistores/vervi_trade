@@ -178,9 +178,8 @@
         },
         "featured_collection_tzW8rM": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "gold-color-plated-jewellerry"
           }
         },
         "featured_collection3": {
