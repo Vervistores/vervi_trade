@@ -152,38 +152,79 @@
     "collection_list": {
       "type": "collection-list",
       "blocks": {
+        "featured_collection_pHPXcg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earings"
+          }
+        },
+        "featured_collection_bj3gQF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chains"
+          }
+        },
+        "featured_collection_NRNQYP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        },
+        "featured_collection_EtUMqi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        },
+        "featured_collection_tzW8rM": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": ""
+          }
+        },
         "featured_collection3": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "trending"
           }
         },
         "featured_collection1": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "men"
           }
         },
         "featured_collection2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "women"
           }
         },
         "featured_collection4": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "kids"
           }
         },
         "featured_collection5": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "homedecor"
           }
         }
       },
       "block_order": [
+        "featured_collection_pHPXcg",
+        "featured_collection_bj3gQF",
+        "featured_collection_NRNQYP",
+        "featured_collection_EtUMqi",
+        "featured_collection_tzW8rM",
         "featured_collection3",
         "featured_collection1",
         "featured_collection2",
