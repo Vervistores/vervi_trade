@@ -45,8 +45,9 @@
         },
         "custom_liquid_r8GCyY": {
           "type": "custom_liquid",
+          "name": "Free shipping message",
           "settings": {
-            "custom_liquid": "<p style=\"color:#861388; font-weight:600; font-size:14px; margin-top:10px;\">\n🚚 Free shipping above ₹500\n</p>"
+            "custom_liquid": "<p style=\"color:#861388; font-weight:600; font-size:14px; margin-top:10px;\">\n🚚 Free shipping on orders above ₹500\n</p>"
           }
         },
         "buy_buttons_DteNn6": {
