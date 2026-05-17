@@ -20,24 +20,6 @@
     "collection_list_pePjFw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_Kcxdre": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "earings"
-          }
-        },
-        "featured_collection_Wyp6tn": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "chains"
-          }
-        },
-        "featured_collection_iMMmgz": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "necklaces"
-          }
-        },
         "featured_collection_EXgk4a": {
           "type": "featured_collection",
           "settings": {
@@ -46,11 +28,9 @@
         }
       },
       "block_order": [
-        "featured_collection_Kcxdre",
-        "featured_collection_Wyp6tn",
-        "featured_collection_iMMmgz",
         "featured_collection_EXgk4a"
       ],
+      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
@@ -67,7 +47,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 5,

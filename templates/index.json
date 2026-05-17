@@ -199,6 +199,7 @@
         },
         "featured_collection2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "women"
           }
@@ -212,7 +213,6 @@
         },
         "featured_collection5": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "homedecor"
           }
