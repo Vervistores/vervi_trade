@@ -199,7 +199,6 @@
         },
         "featured_collection2": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "women"
           }

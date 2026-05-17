@@ -20,7 +20,7 @@
     "collection_list_pePjFw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_dqJj3B": {
+        "featured_collection_Kcxdre": {
           "type": "featured_collection",
           "settings": {
             "collection": "earings"
@@ -46,7 +46,7 @@
         }
       },
       "block_order": [
-        "featured_collection_dqJj3B",
+        "featured_collection_Kcxdre",
         "featured_collection_Wyp6tn",
         "featured_collection_iMMmgz",
         "featured_collection_EXgk4a"
