@@ -20,24 +20,6 @@
     "collection_list_pePjFw": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_Kcxdre": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "earings"
-          }
-        },
-        "featured_collection_Wyp6tn": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "chains"
-          }
-        },
-        "featured_collection_iMMmgz": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "necklaces"
-          }
-        },
         "featured_collection_EXgk4a": {
           "type": "featured_collection",
           "settings": {
@@ -46,11 +28,9 @@
         }
       },
       "block_order": [
-        "featured_collection_Kcxdre",
-        "featured_collection_Wyp6tn",
-        "featured_collection_iMMmgz",
         "featured_collection_EXgk4a"
       ],
+      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
@@ -67,7 +47,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 20,
         "columns_desktop": 5,
@@ -75,15 +54,15 @@
         "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
         "image_ratio": "portrait",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": true,
         "quick_add": "bulk",
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
-        "padding_top": 12,
-        "padding_bottom": 12
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
