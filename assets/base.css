@@ -3842,3 +3842,25 @@ button:focus-visible {
     box-shadow: none !important;
 }
 
+/* REMOVE Shopify container restriction ONLY for slideshow */
+slideshow-component.page-width {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+/* Make slideshow full width */
+slideshow-component .slideshow {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+/* Ensure slide fills full space */
+.slideshow__media,
+.slideshow__media .media,
+.slideshow__media img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+
