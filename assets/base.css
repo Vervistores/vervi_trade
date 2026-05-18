@@ -3882,19 +3882,6 @@ button:focus-visible {
     background-color: #ffffff !important;
 }
 
-/* FIX outer grey area (left & right sides) */
-[id*="slideshow"].shopify-section {
-    background: #ffffff !important;
-}
-
-/* Force entire slideshow section to white */
-[id*="slideshow"] {
-    background: #ffffff !important;
-}
-
-[id*="slideshow"]::before {
-    background: #ffffff !important;
-}
 
 /* FIX page background (side grey areas) */
 body,
