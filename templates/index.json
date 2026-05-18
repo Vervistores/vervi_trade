@@ -74,7 +74,7 @@
         "slide_QtGpLf": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/banner-mobile.jpg",
+            "image": "shopify://shop_images/01_Banner_mobile.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h2",
