@@ -3842,30 +3842,3 @@ button:focus-visible {
     box-shadow: none !important;
 }
 
-/* FIX slideshow image alignment + full width */
-.slideshow__media,
-.slideshow__media .media {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.slideshow__media img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-    object-position: center right; /* keeps model visible */
-    display: block;
-}
-
-/* Ensure slideshow height */
-.slideshow {
-    max-width: 1200px;
-    margin: 30px auto;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.slideshow__slide {
-    height: 500px; /* adjust if needed */
-}
-
