@@ -3881,3 +3881,8 @@ button:focus-visible {
 [id*="slideshow"].color-scheme-3 {
     background-color: #ffffff !important;
 }
+
+/* FIX outer grey area (left & right sides) */
+[id*="slideshow"].shopify-section {
+    background: #ffffff !important;
+}
