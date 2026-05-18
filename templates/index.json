@@ -54,7 +54,7 @@
         "slide_qKYN9e"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {slideshow-component {display: none !important; }}"
+        "@media screen and (max-width: 767px) {slideshow-component {display: none !important; background-color: #ffffff !important; }}"
       ],
       "name": "Slideshow Desktop",
       "settings": {
