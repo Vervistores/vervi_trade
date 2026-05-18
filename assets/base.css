@@ -3846,7 +3846,7 @@ button:focus-visible {
 /* TARGET ONLY slideshow section (not header/announcement) */
 /* TARGET ENTIRE SLIDESHOW SECTION */
 [id*="slideshow"] {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 30px auto;
     border-radius: 20px;
     overflow: hidden;
