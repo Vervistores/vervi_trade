@@ -490,3 +490,35 @@
     color: currentColor;
   }
 }
+
+/* ============================= */
+/* FIX BANNER WIDTH + ROUND BOX */
+/* ============================= */
+
+.banner {
+    max-width: 1200px;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Fix image positioning */
+.banner__media {
+    position: relative !important;
+    height: auto !important;
+}
+
+/* Proper image scaling */
+.banner__media img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Optional: remove overlay */
+.banner::after,
+.banner__media::after {
+    display: none !important;
+}
