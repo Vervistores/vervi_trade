@@ -3842,3 +3842,14 @@ button:focus-visible {
     box-shadow: none !important;
 }
 
+.slideshow {
+    max-width: 1200px;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* IMPORTANT: remove internal padding */
+.slideshow .page-width {
+    padding: 0 !important;
+}
