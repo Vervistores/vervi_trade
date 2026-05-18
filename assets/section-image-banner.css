@@ -491,35 +491,3 @@
   }
 }
 
-/* ============================= */
-/* CONTAINER (blue box area) */
-/* ============================= */
-
-.banner {
-    max-width: 1200px;
-    margin: 30px auto;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-/* KEEP original absolute behavior */
-/* Fix image filling inside banner */
-.banner__media {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-/* Fix image scaling properly */
-.banner__media img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-    object-position: center right; /* keeps model on right */
-    display: block;
-}
-
-/* Ensure banner height */
-.banner--medium {
-    min-height: 500px !important;
-}
