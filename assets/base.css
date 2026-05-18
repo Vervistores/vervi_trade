@@ -3869,3 +3869,7 @@ button:focus-visible {
     height: 100%;
     object-fit: cover;
 }
+
+[id*="slideshow"] {
+    margin: 40px auto;
+}
