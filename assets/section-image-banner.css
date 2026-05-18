@@ -172,13 +172,7 @@
     height: auto !important;
 }
 
-/* Proper image scaling */
-.banner__media img {
-    width: 100%;
-    height: 600px;
-    object-fit: cover;
-    display: block;
-}
+
 
 .banner__media-half {
   width: 50%;
