@@ -33,8 +33,8 @@
         "slide_qKYN9e": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Men_banner.jpg",
-            "image_overlay_opacity": 10,
+            "image": "shopify://shop_images/02_Banner_desktop.png",
+            "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -92,7 +92,7 @@
         "slide_cLbp8a": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Women_model_collection2.jpg",
+            "image": "shopify://shop_images/02_Banner_mobile.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h2",
@@ -118,11 +118,11 @@
       "name": "Slideshow Mobile",
       "settings": {
         "layout": "grid",
-        "slide_height": "small",
+        "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 5,
-        "image_behavior": "ambient",
+        "change_slides_speed": 3,
+        "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": ""
       }
