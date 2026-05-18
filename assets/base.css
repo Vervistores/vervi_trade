@@ -3929,3 +3929,20 @@ button:focus-visible {
 .slider-buttons {
     border: none !important;
 }
+
+/* Make header row flex */
+.collection-list .title-wrapper-with-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Move View All to right */
+.collection-list .title-wrapper-with-link a {
+    margin-left: auto;
+}
+
+/* Remove bottom button (duplicate) */
+.collection-list .center {
+    display: none !important;
+}
