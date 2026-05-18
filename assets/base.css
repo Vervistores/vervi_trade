@@ -3895,3 +3895,10 @@ button:focus-visible {
 [id*="slideshow"]::before {
     background: #ffffff !important;
 }
+
+/* FIX page background (side grey areas) */
+body,
+.gradient,
+.color-background-1 {
+    background-color: #ffffff !important;
+}
