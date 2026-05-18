@@ -239,7 +239,7 @@
         "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
         "show_view_all": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 4,
         "padding_bottom": 4
       }
