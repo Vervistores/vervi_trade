@@ -3842,6 +3842,107 @@ button:focus-visible {
     box-shadow: none !important;
 }
 
+/* Keep slideshow in centered box 18- May 2026*/
+/* TARGET ONLY slideshow section (not header/announcement) */
+/* TARGET ENTIRE SLIDESHOW SECTION */
+[id*="slideshow"] {
+    max-width: 1600px;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
+/* Remove internal padding */
+[id*="slideshow"] .page-width {
+    padding: 0 !important;
+    max-width: 100% !important;
+}
 
+/* Ensure slideshow fits inside */
+[id*="slideshow"] .slideshow {
+    width: 100%;
+}
 
+/* Fix image */
+[id*="slideshow"] img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+[id*="slideshow"] {
+    margin: 4px auto;
+    background-color: #ffffff !important;
+}
+
+/* Force white background */
+[id*="slideshow"].color-scheme-1,
+[id*="slideshow"].color-scheme-2,
+[id*="slideshow"].color-scheme-3 {
+    background-color: #ffffff !important;
+}
+
+/* FIX outer grey area (left & right sides) */
+[id*="slideshow"].shopify-section {
+    background: #ffffff !important;
+}
+
+/* Force entire slideshow section to white */
+[id*="slideshow"] {
+    background: #ffffff !important;
+}
+
+[id*="slideshow"]::before {
+    background: #ffffff !important;
+}
+
+/* Move controls inside image */
+.slideshow {
+    position: relative;
+}
+
+/* Position control bar over image */
+.slideshow__controls {
+    position: absolute !important;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.6); /* soft glass effect */
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    padding: 6px 12px;
+    border: none !important;
+}
+
+/* Remove full-width grey bar */
+.slideshow__controls {
+    width: auto !important;
+}
+
+/* Center dots */
+.slideshow__control-wrapper {
+    justify-content: center;
+}
+
+/* Optional: hide borders completely */
+.slideshow__controls,
+.slider-buttons {
+    border: none !important;
+}
+
+/* Header row */
+.title-wrapper-with-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Right align button */
+.title-wrapper-with-link .link {
+    margin-left: auto;
+}
+
+/* Hide bottom button */
+.collection-list .center {
+    display: none !important;
+}

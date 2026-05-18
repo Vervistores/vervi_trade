@@ -15,7 +15,7 @@
         "slide_XadiPX": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/banner-desktop_first_1.jpg",
+            "image": "shopify://shop_images/01_Banner.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h2",
@@ -33,8 +33,8 @@
         "slide_qKYN9e": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Men_banner.jpg",
-            "image_overlay_opacity": 10,
+            "image": "shopify://shop_images/02_Banner_desktop.png",
+            "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -58,12 +58,12 @@
       ],
       "name": "Slideshow Desktop",
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": ""
       }
@@ -74,7 +74,7 @@
         "slide_QtGpLf": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/banner-mobile.jpg",
+            "image": "shopify://shop_images/01_Banner_mobile.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h2",
@@ -86,13 +86,13 @@
             "box_align": "middle-center",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3"
           }
         },
         "slide_cLbp8a": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Women_model_collection2.jpg",
+            "image": "shopify://shop_images/02_Banner_mobile.png",
             "image_overlay_opacity": 0,
             "heading": "",
             "heading_size": "h2",
@@ -117,12 +117,12 @@
       ],
       "name": "Slideshow Mobile",
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "layout": "grid",
+        "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 5,
-        "image_behavior": "ambient",
+        "change_slides_speed": 3,
+        "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": ""
       }
@@ -145,8 +145,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
         "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 4
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "collection_list": {
@@ -178,9 +178,8 @@
         },
         "featured_collection_tzW8rM": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "gold-color-plated-jewellerry"
           }
         },
         "featured_collection3": {
@@ -195,6 +194,12 @@
           "disabled": true,
           "settings": {
             "collection": "men"
+          }
+        },
+        "featured_collection_NeLxTK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
           }
         },
         "featured_collection2": {
@@ -227,6 +232,7 @@
         "featured_collection_tzW8rM",
         "featured_collection3",
         "featured_collection1",
+        "featured_collection_NeLxTK",
         "featured_collection2",
         "featured_collection4",
         "featured_collection5"
@@ -236,13 +242,13 @@
         "title": "Our Collections",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
         "show_view_all": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "featured_collection2": {
@@ -255,22 +261,22 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "enable_desktop_slider": true,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "color_scheme": "scheme-9f916951-f06c-41e6-bbdf-1746f74aabc3",
         "image_ratio": "portrait",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "quick_add": "bulk",
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "swipe_on_mobile": true,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "featured_collection1": {
