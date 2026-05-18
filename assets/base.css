@@ -3843,7 +3843,10 @@ button:focus-visible {
 }
 
 /* REMOVE Shopify container restriction ONLY for slideshow */
-
+slideshow-component.page-width {
+    max-width: 100% !important;
+    padding: 0 !important;
+}
 
 /* Make slideshow full width */
 slideshow-component .slideshow {
@@ -3859,12 +3862,4 @@ slideshow-component .slideshow {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover;
-}
-
-slideshow-component.page-width {
-    max-width: 1200px !important;
-    margin: 30px auto !important;
-    padding: 0 !important;
-    border-radius: 20px;
-    overflow: hidden;
 }
