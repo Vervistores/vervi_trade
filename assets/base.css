@@ -3842,23 +3842,5 @@ button:focus-visible {
     box-shadow: none !important;
 }
 
-/* FIX banner image full width inside box */
-.banner__media img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover;
-    display: block;
-}
-
-/* Ensure media takes full space */
-.banner__media {
-    width: 100% !important;
-    height: 100% !important;
-}
-
-/* Ensure banner has height */
-.banner--medium {
-    min-height: 600px !important;
-}
 
 
