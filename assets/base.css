@@ -3872,5 +3872,11 @@ button:focus-visible {
 
 [id*="slideshow"] {
     margin: 4px auto;
-    background-color: #ffffff !important;
+}
+
+/* Force white background */
+[id*="slideshow"].color-scheme-1,
+[id*="slideshow"].color-scheme-2,
+[id*="slideshow"].color-scheme-3 {
+    background: #ffffff !important;
 }
