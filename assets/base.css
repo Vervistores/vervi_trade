@@ -3930,19 +3930,19 @@ button:focus-visible {
     border: none !important;
 }
 
-/* Make header row flex */
-.collection-list .title-wrapper-with-link {
+/* Header row */
+.title-wrapper-with-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Move View All to right */
-.collection-list .title-wrapper-with-link a {
+/* Right align button */
+.title-wrapper-with-link .link {
     margin-left: auto;
 }
 
-/* Remove bottom button (duplicate) */
+/* Hide bottom button */
 .collection-list .center {
     display: none !important;
 }
