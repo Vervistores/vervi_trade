@@ -492,7 +492,7 @@
 }
 
 /* ============================= */
-/* FIX BANNER PERFECTLY */
+/* CONTAINER (blue box area) */
 /* ============================= */
 
 .banner {
@@ -500,25 +500,16 @@
     margin: 30px auto;
     border-radius: 20px;
     overflow: hidden;
-    position: relative;
 }
 
-/* VERY IMPORTANT FIX */
+/* KEEP original absolute behavior */
 .banner__media {
     position: absolute;
-    width: 100%;
-    height: 100%;
 }
 
-/* Fix image fill */
+/* Fix image scaling properly */
 .banner__media img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center right; /* keeps model on right */
-}
-
-/* Set proper height */
-.banner--medium {
-    min-height: 600px !important;
 }
