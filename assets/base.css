@@ -3886,3 +3886,12 @@ button:focus-visible {
 [id*="slideshow"].shopify-section {
     background: #ffffff !important;
 }
+
+/* Force entire slideshow section to white */
+[id*="slideshow"] {
+    background: #ffffff !important;
+}
+
+[id*="slideshow"]::before {
+    background: #ffffff !important;
+}
