@@ -3855,7 +3855,7 @@ slideshow-component.page-width {
 /* Make slideshow full width */
 slideshow-component .slideshow {
     width: 100% !important;
-    max-width: 1200px !important;
+    max-width: 85% !important;
     margin: 0 !important;
 }
 
