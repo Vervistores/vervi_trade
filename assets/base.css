@@ -4127,3 +4127,28 @@ button:focus-visible {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+/* ============================= */
+/* CART FOOTER LAYOUT FIX       */
+/* ============================= */
+
+.cart__footer {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 20px;
+}
+
+/* Move tax note to left */
+.cart__footer .tax-note,
+.cart__footer small {
+  order: 1;
+  text-align: left !important;
+  max-width: 50%;
+}
+
+/* Keep total + button on right */
+.cart__blocks {
+  order: 2;
+  text-align: right;
+}
