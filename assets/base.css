@@ -4068,3 +4068,60 @@ button:focus-visible {
   width: 100%;
   border-collapse: collapse;
 }
+
+/* ============================= */
+/* REMOVE EXTRA ROW SPACING     */
+/* ============================= */
+
+/* Remove table row spacing */
+.cart-items tr {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Remove default cell padding */
+.cart-items td {
+  padding: 6px 8px !important;
+  vertical-align: middle !important;
+}
+
+/* Kill extra top spacing inside product info */
+.cart-item__details > * {
+  margin-top: 0 !important;
+  margin-bottom: 2px !important;
+}
+
+/* Remove hidden spacing divs */
+.cart-item__details {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Tighten whole row */
+.cart-item {
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+}
+
+/* Remove extra gap above image */
+.cart-item__media {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Fix product title spacing */
+.cart-item__name {
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
+
+/* Remove spacing from price */
+.cart-item__price {
+  margin: 0 !important;
+}
+
+/* Remove spacing from totals column */
+.cart-item__totals {
+  margin: 0 !important;
+  padding: 0 !important;
+}
