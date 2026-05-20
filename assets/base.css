@@ -4061,7 +4061,7 @@ button:focus-visible {
 }
 
 .cart-items th:nth-child(3) {
-  text-align: right;
+  text-align: center;
 }
 
 /* Remove default table spacing */
