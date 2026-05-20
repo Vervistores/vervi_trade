@@ -4045,7 +4045,8 @@ button:focus-visible {
 
 /* Header cells */
 .cart-items th {
-  font-size: 12px;
+  font-size: 20px;
+  font-weight: var(--font-body-weight-bold);
   text-transform: uppercase;
   color: #c97b7b;
 }
