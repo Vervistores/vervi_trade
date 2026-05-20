@@ -4039,7 +4039,7 @@ button:focus-visible {
 .cart-items thead tr {
   display: grid !important;
  /* grid-template-columns: 70px 1fr auto auto !important;*/
-  grid-template-columns: 70px 1fr 300px 150px;
+  grid-template-columns: 70px 1fr 280px 150px;
   align-items: center;
   padding: 0 10px;
 }
