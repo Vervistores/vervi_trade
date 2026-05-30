@@ -4201,7 +4201,26 @@ button:focus-visible {
 
 }
 
+/*view all moved*/
+.collection-view-all-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  aspect-ratio:1/1;
+  border-radius:12px;
+  background:#F7F3FA;
+  color:#861388;
+  font-size:24px;
+  font-weight:600;
+  text-decoration:none;
+  transition:0.3s;
+}
 
+.collection-view-all-card:hover{
+  background:#861388;
+  color:#fff;
+}
 
 }
 
