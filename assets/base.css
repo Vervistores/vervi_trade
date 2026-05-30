@@ -4209,8 +4209,9 @@ button:focus-visible {
   width:100%;
   aspect-ratio:1/1;
   border-radius:16px;
-  background:linear-gradient(135deg,#861388,#EB7474);
-  color:#fff;
+  /*background:linear-gradient(135deg,#861388,#EB7474);*/
+  background:#FFFFFF;
+  color:#EB7474;
   font-size:24px;
   font-weight:700;
   text-decoration:none;
@@ -4221,7 +4222,7 @@ button:focus-visible {
 .collection-view-all-card:hover{
   transform:translateY(-4px);
   box-shadow:0 12px 30px rgba(134,19,136,.25);
-  color:#fff;
+  color:#EB7474;
 }
 
 }
