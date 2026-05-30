@@ -4201,6 +4201,24 @@ button:focus-visible {
 
 }
 
+@media screen and (max-width: 749px) {
+
+.slideshow__media,
+.slideshow__media img,
+.banner__media img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+}
+
+.slideshow__slide,
+.banner {
+    overflow: hidden !important;
+}
+
+}
+
 }
 
 }
