@@ -4186,18 +4186,20 @@ button:focus-visible {
 
 /* rich text on mobile */
 @media screen and (max-width: 749px) {
+  
+.rich-text .page-width {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
-.rich-text__text,
 .rich-text__text p {
-    font-size: 10px !important;
+    font-size: 12px !important;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: -10;
+    margin: 0;
 }
 
 }
-
 
 }
 
