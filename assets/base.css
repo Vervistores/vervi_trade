@@ -4184,16 +4184,20 @@ button:focus-visible {
   }
 }
 
-/* wishlist on mobile */
+/* rich text on mobile */
 @media screen and (max-width: 749px) {
 
 .rich-text__text,
 .rich-text__text p {
     font-size: 12px !important;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
 }
 
 }
+
 
 }
 
