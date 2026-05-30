@@ -79,17 +79,9 @@
               placeholder_image: placeholder_image
             %}
           </li>
+          
         {%- endfor -%}
-
-{%- if section.settings.show_view_all -%}
-<li class="collection-list__item grid__item collection-list__view-all">
-  <a href="{{ routes.collections_url }}" class="collection-view-all-card">
-    <span>View All →</span>
-  </a>
-</li>
-{%- endif -%}
-
-</ul>
+        
       </ul>
       {%- if show_mobile_slider -%}
         <div class="slider-buttons">
