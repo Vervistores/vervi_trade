@@ -4194,31 +4194,14 @@ button:focus-visible {
 }
 
 .rich-text__text p {
-    font-size: 10px !important;
+    font-size: 9px !important;
     white-space: nowrap;
     margin: 0;
 }
 
 }
 
-@media screen and (max-width: 749px) {
 
-.slideshow,
-.slideshow__slider,
-.slideshow__slide,
-.banner,
-.banner__media {
-    overflow: hidden !important;
-}
-
-.slideshow__media img,
-.banner__media img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-}
-
-}
 
 }
 
