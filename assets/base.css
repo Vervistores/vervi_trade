@@ -4184,4 +4184,16 @@ button:focus-visible {
   }
 }
 
+/* wishlist on mobile */
+@media screen and (max-width: 749px) {
+
+.rich-text__text,
+.rich-text__text p {
+    font-size: 12px !important;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+}
+
 }
