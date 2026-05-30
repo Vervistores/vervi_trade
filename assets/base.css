@@ -4226,22 +4226,6 @@ button:focus-visible {
   color:#EB7474;
 }
 
-/* Quantity + Add to Cart in same row */
-.product-form__buttons {
-    display: flex;
-    align-items: stretch;
-    gap: 12px;
-}
-
-.product-form__quantity {
-    flex: 0 0 140px;
-    margin-bottom: 0 !important;
-}
-
-.product-form__buttons .product-form__submit {
-    flex: 1;
-    margin-top: 0 !important;
-}
 
 }
 
