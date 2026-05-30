@@ -4191,7 +4191,8 @@ button:focus-visible {
 .rich-text__text p {
     font-size: 12px !important;
     white-space: nowrap;
-    overflow-x: auto;
+}
+
 }
 
 }
