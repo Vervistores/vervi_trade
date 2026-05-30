@@ -140,6 +140,9 @@
       "block_order": [
         "text"
       ],
+      "custom_css": [
+        "h2 {font-size: 10px;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
