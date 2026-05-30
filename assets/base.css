@@ -4226,44 +4226,6 @@ button:focus-visible {
   color:#EB7474;
 }
 
-/* Quantity + Add to Cart same row */
-.vervi-buy-row{
-    display:flex;
-    align-items:flex-end;
-    gap:12px;
-    width:100%;
-}
-
-.vervi-buy-row #Quantity-Form-template,
-.vervi-buy-row .product-form__quantity{
-    flex:0 0 130px;
-}
-
-.vervi-buy-row .product-form{
-    flex:1;
-}
-
-.vervi-buy-row .product-form__buttons{
-    margin-top:0 !important;
-}
-
-.vervi-buy-row .product-form__submit{
-    height:100%;
-    min-height:48px;
-}
-
-@media screen and (max-width:749px){
-    .vervi-buy-row{
-        display:flex;
-        flex-direction:row;
-    }
-
-    .vervi-buy-row .product-form__quantity{
-        width:110px;
-        flex:0 0 110px;
-    }
-}
-
 }
 
 }
