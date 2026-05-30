@@ -4208,17 +4208,19 @@ button:focus-visible {
   justify-content:center;
   width:100%;
   aspect-ratio:1/1;
-  border-radius:12px;
-  background:#F7F3FA;
-  color:#861388;
+  border-radius:16px;
+  background:linear-gradient(135deg,#861388,#EB7474);
+  color:#fff;
   font-size:24px;
-  font-weight:600;
+  font-weight:700;
   text-decoration:none;
-  transition:0.3s;
+  transition:all .3s ease;
+  box-shadow:0 8px 20px rgba(134,19,136,.15);
 }
 
 .collection-view-all-card:hover{
-  background:#861388;
+  transform:translateY(-4px);
+  box-shadow:0 12px 30px rgba(134,19,136,.25);
   color:#fff;
 }
 
