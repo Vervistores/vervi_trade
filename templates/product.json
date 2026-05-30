@@ -43,18 +43,18 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "custom_liquid_r8GCyY": {
-          "type": "custom_liquid",
-          "name": "Free shipping message",
-          "settings": {
-            "custom_liquid": "<p style=\"color:#861388; font-weight:600; font-size:14px; margin-top:10px;\">\n🚚 Free shipping on orders above ₹500\n</p>"
-          }
-        },
         "buy_buttons_DteNn6": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "custom_liquid_r8GCyY": {
+          "type": "custom_liquid",
+          "name": "Free shipping message",
+          "settings": {
+            "custom_liquid": "<p style=\"color:#861388; font-weight:600; font-size:14px; margin-top:10px;\">\n🚚 Free shipping on orders above ₹500\n</p>"
           }
         },
         "share": {
@@ -106,8 +106,8 @@
         "variant_picker_k4e8pA",
         "inventory_GNy9GP",
         "quantity_selector_nkeHPx",
-        "custom_liquid_r8GCyY",
         "buy_buttons_DteNn6",
+        "custom_liquid_r8GCyY",
         "share",
         "description",
         "collapsible-row-1",
