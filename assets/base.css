@@ -4222,6 +4222,7 @@ button:focus-visible {
 .collection-view-all-card:hover{
   transform:translateY(-4px);
   box-shadow:0 12px 30px rgba(134,19,136,.25);
+  background:#861388;
   color:#EB7474;
 }
 
