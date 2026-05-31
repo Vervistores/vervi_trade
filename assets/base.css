@@ -4285,15 +4285,13 @@ button:focus-visible {
     font-weight: 700 !important;
 }
 
-.wishlist-hero-items-count {
-    background: #EB7474 !important;
-    color: #fff !important;
-    border-radius: 50% !important;
-    min-width: 18px !important;
-    min-height: 18px !important;
-    font-size: 11px !important;
-}
+/* Hide Wishlist Hero count bubble */
 
+.wishlist-hero-items-count,
+.wishlist-hero-items-count-text-plain,
+.cart-count-bubble {
+    display: none !important;
+}
 }
 
 }
