@@ -4273,7 +4273,7 @@ button:focus-visible {
 .header .header__menu-item {
     font-size: 1.5rem !important;
     font-weight: 600 !important;
-    color: #EB7474 !important;
+    color: #861388 !important;
 }
 
 /* Mobile drawer menu */
@@ -4281,7 +4281,7 @@ button:focus-visible {
 .header .menu-drawer__menu-item {
     font-size: 1.4rem !important;
     font-weight: 500 !important;
-    color: #EB7474 !important;
+    color: #861388 !important;
 }
 
 /* Hide Wishlist Hero count bubble */
