@@ -140,6 +140,7 @@
       "block_order": [
         "text"
       ],
+      "custom_css": [],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

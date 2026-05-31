@@ -4128,3 +4128,146 @@ button:focus-visible {
   padding: 0 !important;
 }
 
+/* ==========================================
+   VerviStore Mobile Bottom Navigation
+========================================== */
+
+@media screen and (max-width: 749px) {
+
+  .mobile-bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: #ffffff;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 9999;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+  }
+
+  .mobile-bottom-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #861388;
+    font-size: 11px;
+    font-weight: 600;
+    gap: 3px;
+    min-width: 20%;
+  }
+
+  .mobile-bottom-nav svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  .mobile-bottom-nav a:hover,
+  .mobile-bottom-nav a.active {
+    color: #EB7474;
+  }
+
+  body {
+    padding-bottom: 75px;
+  }
+}
+
+/* Hide on desktop */
+@media screen and (min-width: 750px) {
+  .mobile-bottom-nav {
+    display: none;
+  }
+}
+
+/* rich text on mobile */
+@media screen and (max-width: 749px) {
+
+.rich-text .page-width {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.rich-text__text p {
+    font-size: 10px !important;
+    white-space: nowrap;
+    margin: 0;
+}
+
+}
+
+/*view all moved*/
+.collection-view-all-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  aspect-ratio:1/1;
+  border-radius:16px;
+  /*background:linear-gradient(135deg,#861388,#EB7474);*/
+  background:#FFFFFF;
+  color:#EB7474;
+  font-size:24px;
+  font-weight:700;
+  text-decoration:none;
+  transition:all .3s ease;
+  box-shadow:0 8px 20px rgba(134,19,136,.15);
+}
+
+.collection-view-all-card:hover{
+  transform:translateY(-4px);
+  box-shadow:0 12px 30px rgba(134,19,136,.25);
+  background:#861388;
+  color:#EB7474;
+}
+
+/* Vervi Policy page*/
+.vervi-policy h2{
+  color:#861388;
+  font-size:105%;
+  font-weight:700;
+  margin-top:22px;
+  margin-bottom:10px;
+}
+
+.vervi-policy h2:first-child{
+  margin-top:10px;
+}
+
+.vervi-policy strong{
+  color:#861388;
+}
+
+/* Bigger & bolder product price */
+
+.price--large .price-item,
+.price__regular .price-item,
+.price__sale .price-item--sale {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    line-height: 1.1;
+}
+
+/* Compare-at price */
+.price__sale .price-item--regular {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+    .price--large .price-item,
+    .price__regular .price-item,
+    .price__sale .price-item--sale {
+        font-size: 1.8rem !important;
+    }
+}
+
+}
+
+}
