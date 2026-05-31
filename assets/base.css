@@ -4273,9 +4273,9 @@ button:focus-visible {
 .header__menu-item,
 .list-menu__item,
 .header__inline-menu a {
-    font-size: 1.7rem !important; /* Increase size */
-    font-weight: 700 !important;  /* Bold */
-    letter-spacing: 0.3px;
+    font-size: 1.8rem !important;
+    font-weight: 800 !important;
+    color: #861388;
 }
 
 /* Mobile menu */
