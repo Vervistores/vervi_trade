@@ -4243,6 +4243,31 @@ button:focus-visible {
   color:#861388;
 }
 
+/* Bigger & bolder product price */
+
+.price--large .price-item,
+.price__regular .price-item,
+.price__sale .price-item--sale {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    line-height: 1.1;
+}
+
+/* Compare-at price */
+.price__sale .price-item--regular {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+    .price--large .price-item,
+    .price__regular .price-item,
+    .price__sale .price-item--sale {
+        font-size: 1.8rem !important;
+    }
+}
+
 }
 
 }
