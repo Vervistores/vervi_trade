@@ -4226,6 +4226,23 @@ button:focus-visible {
   color:#EB7474;
 }
 
+/* Vervi Policy page*/
+.vervi-policy h2{
+  color:#861388;
+  font-size:105%;
+  font-weight:700;
+  margin-top:22px;
+  margin-bottom:10px;
+}
+
+.vervi-policy h2:first-child{
+  margin-top:10px;
+}
+
+.vervi-policy strong{
+  color:#861388;
+}
+
 }
 
 }
