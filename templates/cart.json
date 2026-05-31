@@ -42,7 +42,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "homedecor",
+        "collection": "jhumka",
         "products_to_show": 10,
         "title": "You might like",
         "heading_size": "h2",

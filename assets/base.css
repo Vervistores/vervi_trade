@@ -4062,7 +4062,7 @@ button:focus-visible {
 }
 
 .cart-items th:nth-child(3) {
-  text-align: center;
+  text-align: right;
 }
 
 /* Remove default table spacing */
@@ -4268,6 +4268,63 @@ button:focus-visible {
     }
 }
 
+/* Desktop header menu */
+
+.header .header__menu-item {
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: #861388 !important;
+}
+
+/* Mobile drawer menu */
+
+.header .menu-drawer__menu-item {
+    font-size: 1.4rem !important;
+    font-weight: 500 !important;
+    color: #861388 !important;
+}
+
+/* Hide Wishlist Hero count bubble */
+
+.wishlist-hero-items-count,
+.wishlist-hero-items-count-text-plain,
+.cart-count-bubble {
+    display: none !important;
+}
+
+/* Hide Wishlist for mobile */
+@media screen and (max-width: 749px) {
+  .header__icon--wishlist {
+    display: none !important;
+  }
+}
+
+/* Match Shopify header icons */
+
+.header__icon--wishlist svg {
+  width: 2rem;
+  height: 2rem;
+  stroke-width: 1.5;
+  display: block;
+}
+
+/* Wishlist left aligned */
+
+#wishlist-hero-product-page-button,
+.wishlist-hero-product-app-block,
+.wishlisthero-product-page-button-container {
+    width: 100% !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+}
+
+#wishlist-hero-product-page-button button {
+    justify-content: flex-start !important;
+    text-align: left !important;
+    padding-left: 0 !important;
+}
+
+/*end*/
 }
 
 }
