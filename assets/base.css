@@ -4268,21 +4268,20 @@ button:focus-visible {
     }
 }
 
-/* Main menu font styling */
+/* Desktop header menu */
 
-.header__menu-item,
-.list-menu__item,
-.header__inline-menu a {
+.header .header__menu-item {
     font-size: 1.8rem !important;
     font-weight: 800 !important;
-    color: #861388;
+    color: #861388 !important;
 }
 
-/* Mobile menu */
+/* Mobile drawer menu */
 
-.menu-drawer__menu-item {
+.header .menu-drawer__menu-item {
     font-size: 1.8rem !important;
     font-weight: 700 !important;
+    color: #861388 !important;
 }
 
 /* Hide Wishlist Hero count bubble */
@@ -4302,19 +4301,6 @@ button:focus-visible {
   display: block;
 }
 
-/* Left align Wishlist Hero button on product page */
-
-.wishlist-hero-product-page-button,
-.wishlist-hero-product-page {
-    text-align: left !important;
-    justify-content: flex-start !important;
-    margin-left: 0 !important;
-}
-
-.wishlist-hero-product-page-button a,
-.wishlist-hero-product-page a {
-    justify-content: flex-start !important;
-}
 
 /*end*/
 }
