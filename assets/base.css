@@ -4268,6 +4268,23 @@ button:focus-visible {
     }
 }
 
+/* Main menu font styling */
+
+.header__menu-item,
+.list-menu__item,
+.header__inline-menu a {
+    font-size: 1.7rem !important; /* Increase size */
+    font-weight: 700 !important;  /* Bold */
+    letter-spacing: 0.3px;
+}
+
+/* Mobile menu */
+
+.menu-drawer__menu-item {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+}
+
 }
 
 }
