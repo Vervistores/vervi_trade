@@ -4292,7 +4292,7 @@ button:focus-visible {
     display: none !important;
 }
 
-/* Hide Wishlist for desktop */
+/* Hide Wishlist for mobile */
 @media screen and (max-width: 749px) {
   .header__icon--wishlist {
     display: none !important;
@@ -4308,6 +4308,19 @@ button:focus-visible {
   display: block;
 }
 
+/* Wishlist left */
+
+#wishlist-hero-product-page-button button {
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+/* Share right */
+
+.share-button {
+    display: flex !important;
+    justify-content: flex-end !important;
+}
 
 /*end*/
 }
