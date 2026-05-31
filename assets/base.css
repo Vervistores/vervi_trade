@@ -4308,35 +4308,7 @@ button:focus-visible {
   display: block;
 }
 
-/* Wishlist left aligned */
 
-#wishlist-hero-product-page-button,
-.wishlist-hero-product-app-block,
-.wishlisthero-product-page-button-container {
-    width: 100% !important;
-    text-align: left !important;
-    justify-content: flex-start !important;
-}
-
-#wishlist-hero-product-page-button button {
-    justify-content: flex-start !important;
-    text-align: left !important;
-    padding-left: 0 !important;
-}
-
-/* Share button right aligned */
-
-.share-button,
-.share-button-details,
-.share-button__button {
-    margin-left: auto !important;
-}
-
-/* Put wishlist and share closer together */
-
-#wishlist-hero-product-page-button {
-    margin-bottom: 0 !important;
-}
 
 /*end*/
 }
