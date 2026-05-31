@@ -4302,6 +4302,19 @@ button:focus-visible {
   display: block;
 }
 
+/* Left align Wishlist Hero button on product page */
+
+.wishlist-hero-product-page-button,
+.wishlist-hero-product-page {
+    text-align: left !important;
+    justify-content: flex-start !important;
+    margin-left: 0 !important;
+}
+
+.wishlist-hero-product-page-button a,
+.wishlist-hero-product-page a {
+    justify-content: flex-start !important;
+}
 
 /*end*/
 }
