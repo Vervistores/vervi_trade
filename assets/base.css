@@ -4272,7 +4272,7 @@ button:focus-visible {
 
 .header .header__menu-item {
     font-size: 1.8rem !important;
-    font-weight: 800 !important;
+    font-weight: 600 !important;
     color: #861388 !important;
 }
 
@@ -4280,7 +4280,7 @@ button:focus-visible {
 
 .header .menu-drawer__menu-item {
     font-size: 1.8rem !important;
-    font-weight: 700 !important;
+    font-weight: 500 !important;
     color: #861388 !important;
 }
 
