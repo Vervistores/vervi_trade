@@ -4324,6 +4324,109 @@ button:focus-visible {
     padding-left: 0 !important;
 }
 
+/* ===========================
+   VERVISTORE CUSTOMER PAGES
+   =========================== */
+
+/* Page title */
+.customer h1,
+.customer__title,
+.main-page-title {
+    color: #861388 !important;
+    font-weight: 800 !important;
+}
+
+/* Form container */
+.customer,
+.customer form {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+/* Input fields */
+.customer input,
+.customer select,
+.customer textarea {
+    border: 1px solid #ebd6d6 !important;
+    border-radius: 12px !important;
+    min-height: 48px;
+}
+
+/* Input focus */
+.customer input:focus,
+.customer select:focus,
+.customer textarea:focus {
+    border-color: #861388 !important;
+    box-shadow: 0 0 0 2px rgba(134, 19, 136, 0.1) !important;
+}
+
+/* Login/Register buttons */
+.customer button,
+.customer .button,
+.customer input[type="submit"] {
+    background: #861388 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 14px !important;
+    font-weight: 700 !important;
+    min-height: 52px;
+    transition: all .25s ease;
+}
+
+/* Hover */
+.customer button:hover,
+.customer .button:hover,
+.customer input[type="submit"]:hover {
+    background: #EB7474 !important;
+    transform: translateY(-2px);
+}
+
+/* Links */
+.customer a {
+    color: #861388 !important;
+    font-weight: 600;
+}
+
+/* Account page orders table */
+.customer table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.customer th {
+    background: #861388;
+    color: #fff;
+}
+
+/* Remove Shopify focus ring */
+.customer button:focus,
+.customer button:focus-visible,
+.customer .button:focus,
+.customer .button:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 749px) {
+
+    .customer {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .customer h1,
+    .customer__title {
+        font-size: 2.4rem !important;
+        text-align: center;
+    }
+
+    .customer button,
+    .customer .button {
+        width: 100%;
+    }
+}
+
 /*end*/
 }
 
