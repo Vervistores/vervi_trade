@@ -4292,6 +4292,13 @@ button:focus-visible {
     display: none !important;
 }
 
+/* Hide Wishlist for desktop */
+@media screen and (max-width: 749px) {
+  .header__icon--wishlist {
+    display: none !important;
+  }
+}
+
 /* Match Shopify header icons */
 
 .header__icon--wishlist svg {
