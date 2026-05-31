@@ -50,11 +50,20 @@
             "show_gift_card_recipient": true
           }
         },
-        "custom_liquid_r8GCyY": {
-          "type": "custom_liquid",
-          "name": "Free shipping message",
+        "wishlist_hero_custom_product_button_nNABem": {
+          "type": "shopify://apps/wishlist-hero/blocks/custom-product-button/a9a5079b-59e8-47cb-b659-ecf1c60b9b72",
           "settings": {
-            "custom_liquid": "<p>\n🚚 Free shipping on orders above ₹500\n</p>"
+            "displayButtonMode": "~",
+            "contentAlignment": "center",
+            "buttonAlignment": "center",
+            "overrideFont": false,
+            "customFont": "sans_serif_n4",
+            "buttonFullwidth": false,
+            "removeBoxShadowAndBorder": true,
+            "horizontalPadding": 20,
+            "iconTopOffset": 0,
+            "addedCssClassNames": "",
+            "addedContainerStyles": ""
           }
         },
         "share": {
@@ -107,7 +116,7 @@
         "inventory_GNy9GP",
         "quantity_selector_nkeHPx",
         "buy_buttons_DteNn6",
-        "custom_liquid_r8GCyY",
+        "wishlist_hero_custom_product_button_nNABem",
         "share",
         "description",
         "collapsible-row-1",
