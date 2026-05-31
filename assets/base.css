@@ -4062,7 +4062,7 @@ button:focus-visible {
 }
 
 .cart-items th:nth-child(3) {
-  text-align: center;
+  text-align: right;
 }
 
 /* Remove default table spacing */
