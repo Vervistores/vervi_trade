@@ -4308,7 +4308,21 @@ button:focus-visible {
   display: block;
 }
 
+/* Wishlist left aligned */
 
+#wishlist-hero-product-page-button,
+.wishlist-hero-product-app-block,
+.wishlisthero-product-page-button-container {
+    width: 100% !important;
+    text-align: left !important;
+    justify-content: flex-start !important;
+}
+
+#wishlist-hero-product-page-button button {
+    justify-content: flex-start !important;
+    text-align: left !important;
+    padding-left: 0 !important;
+}
 
 /*end*/
 }
