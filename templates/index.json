@@ -232,16 +232,16 @@
     "collection_list_nmedCh": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_dqYAx3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "temple-collections"
-          }
-        },
         "featured_collection_c37jML": {
           "type": "featured_collection",
           "settings": {
             "collection": "hair-bands-clips"
+          }
+        },
+        "featured_collection_dqYAx3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "temple-collections"
           }
         },
         "featured_collection_nUXyd7": {
@@ -286,8 +286,8 @@
         }
       },
       "block_order": [
-        "featured_collection_dqYAx3",
         "featured_collection_c37jML",
+        "featured_collection_dqYAx3",
         "featured_collection_nUXyd7",
         "featured_collection_Cdcxjt",
         "featured_collection_gB7WRL",
